@@ -1,0 +1,14 @@
+providers:
+  - Katra\UI\KatraServiceProvider
+
+migrations:
+  - database/migrations
+
+workbench:
+  start: '/katra'
+  install: true
+  welcome: false
+  build:
+    - asset-publish
+    - create-sqlite-db
+    - migrate-refresh

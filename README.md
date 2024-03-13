@@ -15,12 +15,26 @@ git clone git@github.com:katraio/ui.git
 cd ui
 composer install
 npm install
+composer prepare
+composer build
 ```
 
-To start the development server, run:
+To run the tests, run:
 
 ```bash
-npm run dev
+composer test
+```
+
+To run the package, run:
+
+```bash
+composer serve
+```
+
+To run the linter, run:
+
+```bash
+composer lint
 ```
 
 ## License

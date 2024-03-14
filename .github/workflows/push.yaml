@@ -1,0 +1,13 @@
+name: Push
+
+on:
+  push:
+    branches:
+      - "**"
+
+permissions:
+  contents: read
+
+jobs:
+  phpstan:
+    uses: katraio/.github/.github/workflows/phpstan.yml@main

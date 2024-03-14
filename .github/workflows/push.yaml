@@ -11,3 +11,6 @@ permissions:
 jobs:
   phpstan:
     uses: katraio/.github/.github/workflows/phpstan.yml@main
+
+  pest:
+    uses: katraio/.github/.github/workflows/pest.yml@main
